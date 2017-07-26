@@ -3,7 +3,7 @@ var myHeading=document.querySelector('h1')
 myHeading.innerHTML='hello world'
 
 var log=console.log.bind(console)
-
+log("test3")
 var myImage=document.querySelector('img')
 myImage.onclick=function() {
   var mySrc=myImage.getAttribute('src');
